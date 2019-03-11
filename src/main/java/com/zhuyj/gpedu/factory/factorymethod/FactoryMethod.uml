@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.zhuyj.gpedu.factory.factorymethod.AppleFruitFactory</OriginalElement>
+  <nodes>
+    <node x="190.0" y="103.0">com.zhuyj.gpedu.factory.factorymethod.IFruitFactory</node>
+    <node x="76.70937500000005" y="206.0">com.zhuyj.gpedu.factory.factorymethod.OrangeFruitFactory</node>
+    <node x="355.0" y="103.0">com.zhuyj.gpedu.factory.AppleFruit</node>
+    <node x="353.084375" y="206.0">com.zhuyj.gpedu.factory.factorymethod.AppleFruitFactory</node>
+    <node x="179.33437500000002" y="0.0">com.zhuyj.gpedu.factory.IFruit</node>
+    <node x="0.0" y="103.0">com.zhuyj.gpedu.factory.OrangeFruit</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.zhuyj.gpedu.factory.factorymethod.OrangeFruitFactory" target="com.zhuyj.gpedu.factory.factorymethod.IFruitFactory">
+      <point x="53.333333333333314" y="-26.5" />
+      <point x="210.04270833333337" y="181.0" />
+      <point x="226.25" y="181.0" />
+      <point x="-36.25" y="26.5" />
+    </edge>
+    <edge source="com.zhuyj.gpedu.factory.factorymethod.AppleFruitFactory" target="com.zhuyj.gpedu.factory.AppleFruit">
+      <point x="0.0" y="-26.5" />
+      <point x="429.084375" y="181.0" />
+      <point x="439.5" y="181.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.zhuyj.gpedu.factory.factorymethod.OrangeFruitFactory" target="com.zhuyj.gpedu.factory.IFruit">
+      <point x="0.0" y="-26.5" />
+      <point x="156.70937500000005" y="181.0" />
+      <point x="179.5" y="181.0" />
+      <point x="179.5" y="83.0" />
+      <point x="230.034375" y="83.0" />
+      <point x="-33.80000000000001" y="26.5" />
+    </edge>
+    <edge source="com.zhuyj.gpedu.factory.OrangeFruit" target="com.zhuyj.gpedu.factory.IFruit">
+      <point x="-5.6843418860808015E-14" y="-26.5" />
+      <point x="84.49999999999994" y="73.0" />
+      <point x="196.23437500000003" y="73.0" />
+      <point x="-67.6" y="26.5" />
+    </edge>
+    <edge source="com.zhuyj.gpedu.factory.AppleFruit" target="com.zhuyj.gpedu.factory.IFruit">
+      <point x="0.0" y="-26.5" />
+      <point x="439.5" y="83.0" />
+      <point x="297.63437500000003" y="83.0" />
+      <point x="33.80000000000001" y="26.5" />
+    </edge>
+    <edge source="com.zhuyj.gpedu.factory.factorymethod.OrangeFruitFactory" target="com.zhuyj.gpedu.factory.OrangeFruit">
+      <point x="-53.33333333333337" y="-26.5" />
+      <point x="103.37604166666668" y="181.0" />
+      <point x="84.5" y="181.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.zhuyj.gpedu.factory.factorymethod.AppleFruitFactory" target="com.zhuyj.gpedu.factory.IFruit">
+      <point x="50.66666666666666" y="-26.5" />
+      <point x="479.75104166666665" y="181.0" />
+      <point x="534.5" y="181.0" />
+      <point x="534.5" y="73.0" />
+      <point x="331.43437500000005" y="73.0" />
+      <point x="67.60000000000002" y="26.5" />
+    </edge>
+    <edge source="com.zhuyj.gpedu.factory.factorymethod.IFruitFactory" target="com.zhuyj.gpedu.factory.IFruit">
+      <point x="0.0" y="-26.5" />
+      <point x="262.5" y="83.0" />
+      <point x="263.834375" y="83.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.zhuyj.gpedu.factory.factorymethod.AppleFruitFactory" target="com.zhuyj.gpedu.factory.factorymethod.IFruitFactory">
+      <point x="-50.66666666666666" y="-26.5" />
+      <point x="378.4177083333334" y="181.0" />
+      <point x="298.75" y="181.0" />
+      <point x="36.25" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="76.0" y="179.0" />
+  <SelectedNodes>
+    <node>com.zhuyj.gpedu.factory.factorymethod.OrangeFruitFactory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

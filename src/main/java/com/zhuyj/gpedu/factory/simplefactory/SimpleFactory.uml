@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.zhuyj.gpedu.factory.simplefactory.FruitFactory</OriginalElement>
+  <nodes>
+    <node x="-75.5" y="-81.0">com.zhuyj.gpedu.factory.simplefactory.IFruit</node>
+    <node x="121.0" y="22.0">com.zhuyj.gpedu.factory.simplefactory.AppleFruit</node>
+    <node x="-272.0" y="22.0">com.zhuyj.gpedu.factory.simplefactory.OrangeFruit</node>
+    <node x="-83.0" y="22.0">com.zhuyj.gpedu.factory.simplefactory.FruitFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.zhuyj.gpedu.factory.simplefactory.AppleFruit" target="com.zhuyj.gpedu.factory.simplefactory.IFruit">
+      <point x="0.0" y="-26.5" />
+      <point x="205.5" y="-3.0" />
+      <point x="65.33333333333337" y="-3.0" />
+      <point x="56.33333333333337" y="26.5" />
+    </edge>
+    <edge source="com.zhuyj.gpedu.factory.simplefactory.FruitFactory" target="com.zhuyj.gpedu.factory.simplefactory.IFruit">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.zhuyj.gpedu.factory.simplefactory.OrangeFruit" target="com.zhuyj.gpedu.factory.simplefactory.IFruit">
+      <point x="0.0" y="-26.5" />
+      <point x="-187.5" y="-3.0" />
+      <point x="-47.33333333333334" y="-3.0" />
+      <point x="-56.33333333333334" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="58.5" y="15.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

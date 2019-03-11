@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.zhuyj.gpedu.factory.Abstractfactory.ICourseFactory</OriginalElement>
+  <nodes>
+    <node x="453.09090909090895" y="242.54545454545456">com.zhuyj.gpedu.factory.Abstractfactory.INote</node>
+    <node x="121.81818181818176" y="128.72727272727272">com.zhuyj.gpedu.factory.Abstractfactory.GoCourseFactory</node>
+    <node x="527.090909090909" y="345.54545454545456">com.zhuyj.gpedu.factory.Abstractfactory.JavaNote</node>
+    <node x="329.81818181818176" y="128.72727272727272">com.zhuyj.gpedu.factory.Abstractfactory.JavaCourseFactory</node>
+    <node x="83.0" y="247.0">com.zhuyj.gpedu.factory.Abstractfactory.IVideo</node>
+    <node x="225.81818181818176" y="2.7272727272727195">com.zhuyj.gpedu.factory.Abstractfactory.ICourseFactory</node>
+    <node x="166.0" y="350.0">com.zhuyj.gpedu.factory.Abstractfactory.JavaVideo</node>
+    <node x="379.09090909090895" y="345.54545454545456">com.zhuyj.gpedu.factory.Abstractfactory.GoNote</node>
+    <node x="0.0" y="350.0">com.zhuyj.gpedu.factory.Abstractfactory.GoVideo</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.zhuyj.gpedu.factory.Abstractfactory.GoCourseFactory" target="com.zhuyj.gpedu.factory.Abstractfactory.ICourseFactory">
+      <point x="0.0" y="-38.0" />
+      <point x="215.81818181818176" y="103.72727272727272" />
+      <point x="272.81818181818176" y="103.72727272727272" />
+      <point x="-47.0" y="38.0" />
+    </edge>
+    <edge source="com.zhuyj.gpedu.factory.Abstractfactory.JavaCourseFactory" target="com.zhuyj.gpedu.factory.Abstractfactory.ICourseFactory">
+      <point x="0.0" y="-38.0" />
+      <point x="423.81818181818176" y="103.72727272727272" />
+      <point x="366.81818181818176" y="103.72727272727272" />
+      <point x="47.0" y="38.0" />
+    </edge>
+    <edge source="com.zhuyj.gpedu.factory.Abstractfactory.GoVideo" target="com.zhuyj.gpedu.factory.Abstractfactory.IVideo">
+      <point x="0.0" y="-26.5" />
+      <point x="73.0" y="325.0" />
+      <point x="119.5" y="325.0" />
+      <point x="-36.5" y="26.5" />
+    </edge>
+    <edge source="com.zhuyj.gpedu.factory.Abstractfactory.JavaVideo" target="com.zhuyj.gpedu.factory.Abstractfactory.IVideo">
+      <point x="0.0" y="-26.5" />
+      <point x="239.0" y="325.0" />
+      <point x="192.5" y="325.0" />
+      <point x="36.5" y="26.5" />
+    </edge>
+    <edge source="com.zhuyj.gpedu.factory.Abstractfactory.GoNote" target="com.zhuyj.gpedu.factory.Abstractfactory.INote">
+      <point x="0.0" y="-26.5" />
+      <point x="443.09090909090895" y="320.54545454545456" />
+      <point x="485.09090909090895" y="320.54545454545456" />
+      <point x="-32.0" y="26.5" />
+    </edge>
+    <edge source="com.zhuyj.gpedu.factory.Abstractfactory.JavaNote" target="com.zhuyj.gpedu.factory.Abstractfactory.INote">
+      <point x="0.0" y="-26.5" />
+      <point x="591.090909090909" y="320.54545454545456" />
+      <point x="549.090909090909" y="320.54545454545456" />
+      <point x="32.0" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.1" x="348.0" y="265.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
